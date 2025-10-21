@@ -12,7 +12,7 @@ const Login = ({handleLogin}) => {
   }
   return (
     <div className="flex justify-center items-center h-screen w-screen">
-      <div className="border-2 rounded-md p-3 flex flex-col justify-center  border-emerald-500 h-[400px]">
+      <div className="border-2 rounded-md p-3 flex flex-col justify-center  border-red-500 h-[400px]">
         <h1 className="p-3 font-thin text-3xl mb-8">Login to your account</h1>
         <form onSubmit={(e)=>{submitHandler(e)}} className="flex flex-col justify-center items-center gap-2 ">
           <input
